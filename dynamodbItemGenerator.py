@@ -32,12 +32,12 @@ def SetUpDBItems(data):
 
 
 def write_json_file(data):
-    with open(f'{file_name_write}.json', 'w') as json_file:
-        json.dump(data, json_file)
+    with open(f'{file_name_write}.json', 'w', encoding="utf-8") as json_file:
+        json.dump(data, json_file, ensure_ascii=False)
 
 if __name__ == '__main__':
     # Read the json file
-    with open(f'{file_name_read}.json') as json_file:
+    with open(f'{file_name_read}.json', encoding="utf-8") as json_file:
         data = json.load(json_file)
 
     # Create the item in the database
