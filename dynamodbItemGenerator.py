@@ -3,10 +3,10 @@
 
 import uuid
 import json
-from datetime import datetime 
+from datetime import datetime
 
-file_name_read = input("Enter the file name to read json: ")
-file_name_write = input("Enter the file name tp write json: ")
+file_name_read = input("Enter the file name of the input json: ")
+file_name_write = input("Enter the file name of the output json: ")
 
 def SetUpDBItems(data):
     tableName = list(data.keys())[0]
@@ -33,7 +33,7 @@ def SetUpDBItems(data):
 
 def write_json_file(data):
     with open(f'{file_name_write}.json', 'w', encoding="utf-8") as json_file:
-        json.dump(data, json_file, ensure_ascii=False)
+        json.dump(data, json_file, ensure_ascii=False, indent = 4)
 
 if __name__ == '__main__':
     # Read the json file

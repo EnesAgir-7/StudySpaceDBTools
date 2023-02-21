@@ -1,0 +1,229 @@
+{
+    "DragAndDropQuestion-fjai5uohmnhclkm226sts6htze-production": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "exerciseSets": {
+                        "L": [
+                            {
+                                "S": "0/0/1/basics/2"
+                            }
+                        ]
+                    },
+                    "question": {
+                        "S": "Match capital cities with their country."
+                    },
+                    "typeListOne": {
+                        "N": "0"
+                    },
+                    "typeListTwo": {
+                        "N": "0"
+                    },
+                    "listOne": {
+                        "L": [
+                            {
+                                "S": "Tegucigalpa"
+                            },
+                            {
+                                "S": "Managua"
+                            },
+                            {
+                                "S": "San Salvador"
+                            },
+                            {
+                                "S": "San Jose"
+                            }
+                        ]
+                    },
+                    "listTwo": {
+                        "L": [
+                            {
+                                "S": "Honduras"
+                            },
+                            {
+                                "S": "Nicaragua"
+                            },
+                            {
+                                "S": "El Salvador"
+                            },
+                            {
+                                "S": "Costa Rica"
+                            }
+                        ]
+                    },
+                    "hint": {
+                        "S": "All countries are located in Central America."
+                    },
+                    "__typename": {
+                        "S": "DragAndDropQuestion"
+                    },
+                    "id": {
+                        "S": "bc65211b-11fd-4432-a46b-9ea6a7f24479"
+                    },
+                    "createdAt": {
+                        "S": "2023-02-21T18:44:27.216Z"
+                    },
+                    "updatedAt": {
+                        "S": "2023-02-21T18:44:27.216Z"
+                    },
+                    "_version": {
+                        "N": "1"
+                    },
+                    "_lastChangedAt": {
+                        "N": "1677001467216"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "exerciseSets": {
+                        "L": [
+                            {
+                                "S": "0/0/1/basics/2"
+                            }
+                        ]
+                    },
+                    "question": {
+                        "S": "Match Countries with their language."
+                    },
+                    "typeListOne": {
+                        "N": "0"
+                    },
+                    "typeListTwo": {
+                        "N": "0"
+                    },
+                    "listOne": {
+                        "L": [
+                            {
+                                "S": "Nicaragua"
+                            },
+                            {
+                                "S": "Brasil"
+                            },
+                            {
+                                "S": "Netherlands"
+                            },
+                            {
+                                "S": "Australia"
+                            }
+                        ]
+                    },
+                    "listTwo": {
+                        "L": [
+                            {
+                                "S": "Spanish"
+                            },
+                            {
+                                "S": "Portuguese"
+                            },
+                            {
+                                "S": "Dutch"
+                            },
+                            {
+                                "S": "English"
+                            }
+                        ]
+                    },
+                    "hint": {
+                        "S": "The country name is not always related to its language name."
+                    },
+                    "__typename": {
+                        "S": "DragAndDropQuestion"
+                    },
+                    "id": {
+                        "S": "c6128306-194e-4fb9-8b0f-6382b15117e8"
+                    },
+                    "createdAt": {
+                        "S": "2023-02-21T18:44:27.216Z"
+                    },
+                    "updatedAt": {
+                        "S": "2023-02-21T18:44:27.216Z"
+                    },
+                    "_version": {
+                        "N": "1"
+                    },
+                    "_lastChangedAt": {
+                        "N": "1677001467216"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "exerciseSets": {
+                        "L": [
+                            {
+                                "S": "0/0/1/basics/2"
+                            }
+                        ]
+                    },
+                    "question": {
+                        "S": "Match the formula with the correct name."
+                    },
+                    "typeListOne": {
+                        "N": "1"
+                    },
+                    "typeListTwo": {
+                        "N": "0"
+                    },
+                    "listOne": {
+                        "L": [
+                            {
+                                "S": "$a^2 + b^2 = c^2$"
+                            },
+                            {
+                                "S": "$\\nabla^2 f = 0$"
+                            },
+                            {
+                                "S": "\\dot{u} = \\Delta u"
+                            },
+                            {
+                                "S": "\\Delta \\phi = f"
+                            }
+                        ]
+                    },
+                    "listTwo": {
+                        "L": [
+                            {
+                                "S": "Pythagorean theorem"
+                            },
+                            {
+                                "S": "Laplace equation"
+                            },
+                            {
+                                "S": "Heat equation"
+                            },
+                            {
+                                "S": "Poisson's equation"
+                            }
+                        ]
+                    },
+                    "hint": {
+                        "S": "Check the theory of partial differential equations and right triangles."
+                    },
+                    "__typename": {
+                        "S": "DragAndDropQuestion"
+                    },
+                    "id": {
+                        "S": "d89d4cec-2e97-4fbb-9045-7731eb0bad3d"
+                    },
+                    "createdAt": {
+                        "S": "2023-02-21T18:44:27.216Z"
+                    },
+                    "updatedAt": {
+                        "S": "2023-02-21T18:44:27.216Z"
+                    },
+                    "_version": {
+                        "N": "1"
+                    },
+                    "_lastChangedAt": {
+                        "N": "1677001467216"
+                    }
+                }
+            }
+        }
+    ]
+}

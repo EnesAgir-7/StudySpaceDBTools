@@ -12,10 +12,9 @@ the command `aws dynamodb batch-write-item --request-items <item-json>`. Check t
 
 
 ## How to upload data to the studyspace aws dynamodb tables
-1. Create your data by writing the corresponding JSON. Use the data model templates from the file data_model_templates.md. You can put multiple
-items into one JSON, but all items belong to the same table. For different tables, write different files.
+1. Create your data by writing the corresponding JSON. Use the data model templates from the file data_model_templates.md.
 
-2. Run your JSON through the dynamodbItemGenerator. The script will automatically set the id's and timestamps, such that the items
+2. Run your JSON through the dynamodbItemGenerator. It will automatically set the id's and timestamps, such that the items
 become dynamodb-compliant. The script will output your JSON into a new file.
 
 3. Upload the new file to the AWS CloudShell. Then run the command `aws dynamodb batch-write-item --request-items file://my-table-data.json` with
